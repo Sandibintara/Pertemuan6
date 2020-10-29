@@ -24,7 +24,7 @@ Kelas		: TI 20 B1
 ---
 > end=''
 
-`penggunaan end='' untuk membuat huruf sejajar vertikal ![click here](https://core.ac.uk/download/pdf/45375438.pdf) lihat pada halaman 22 untuk keterangan lebih jelas`
+Penggunaan end='' untuk membuat huruf sejajar vertikal ![click here](https://core.ac.uk/download/pdf/45375438.pdf) lihat pada halaman 22 untuk keterangan lebih jelas
 
 * contoh seperti ini ;
 
