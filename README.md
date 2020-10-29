@@ -28,7 +28,7 @@ Penggunaan end='' untuk membuat huruf sejajar vertikal ![click here](https://cor
 
 * contoh seperti ini ;
 
-![end=.png](foto/end=.png)
+![end=.PNG](foto/end=.PNG)
 
 * dengan output seperti ini ;
 
