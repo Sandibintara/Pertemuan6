@@ -13,12 +13,12 @@ Kelas		: TI 20 B1
 
 ======================================
 
-##Assalamualaikum
+## Assalamualaikum
 ---
 
 Lab 1
 
-###Penggunaan end=''
+### Penggunaan end=''
 ---
 > end=''
 
