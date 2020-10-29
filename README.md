@@ -1,6 +1,8 @@
 # Pertemuan 6
 Mengerjakan  Latihan  Pada Pertemuan 6
+
 ======================================
+
 Mata Kuliah	: Bahasa Pemrograman
 
 Dosen		: Agung Nugroho, S.Kom, M.Kom
@@ -16,7 +18,7 @@ Kelas		: TI 20 B1
 ## Assalamualaikum
 ---
 
-Lab 1
+# Lab 1
 
 ### Penggunaan end=''
 ---
