@@ -20,7 +20,7 @@ Kelas		: TI 20 B1
 
 # Lab 1
 
-### Penggunaan {end=''}
+### A. Penggunaan {end=''}
 ---
 > end=''
 
@@ -34,7 +34,7 @@ Penggunaan (end='') untuk membuat huruf sejajar vertikal [*click here](https://c
 
 ![hasilend=.PNG](foto/hasilend=.PNG)
 
-### Penggunaan Separator / Penghubung {sep=''}
+### B. Penggunaan Separator / Penghubung {sep=''}
 ---
 > sep=''
 
@@ -42,24 +42,24 @@ Penggunaan sparator adalah untuk menampilkan penghubung sesuai dengan icon pengh
 
 * Contoh ;
 
-a. penulisan tanpa sparator
-
-input
+1. penulisan tanpa sparator
 --
+input
+-
 ![nosep=.PNG](foto/nosep=.PNG)
 
 output
---
+-
 ![hslnosep=.PNG](foto/hslnosep=.PNG)
 
-b. Penulisan menggunakan sparator
-
-input
+2. Penulisan menggunakan sparator
 --
+input
+-
 ![sep=.PNG](foto/sep=.PNG)
 
 output
---
+-
 ![hslsep=.PNG](foto/hslsep=.PNG)
 
 
