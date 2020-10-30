@@ -22,9 +22,9 @@ Kelas		: TI 20 B1
 
 ### A. Penggunaan {end=''}
 ---
-> end=''
-
 Penggunaan (end='') untuk membuat huruf sejajar vertikal [*click here](https://core.ac.uk/download/pdf/45375438.pdf) lihat pada halaman 22 untuk keterangan lebih jelas
+
+> end=' '
 
 * Contoh Input ;
 
@@ -36,9 +36,9 @@ Penggunaan (end='') untuk membuat huruf sejajar vertikal [*click here](https://c
 
 ### B. Penggunaan Separator / Penghubung {sep=''}
 ---
-> sep=''
-
 Penggunaan sparator adalah untuk menampilkan penghubung sesuai dengan icon penghubung yang di tentukan.
+
+> sep=' '
 
 _Contoh ;_
 
