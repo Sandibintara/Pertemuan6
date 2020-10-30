@@ -40,7 +40,7 @@ Penggunaan (end='') untuk membuat huruf sejajar vertikal [*click here](https://c
 
 Penggunaan sparator adalah untuk menampilkan penghubung sesuai dengan icon penghubung yang di tentukan.
 
-* Contoh ;
+_Contoh ;_
 
 `1. penulisan tanpa sparator`
 
