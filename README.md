@@ -44,22 +44,22 @@ Penggunaan sparator adalah untuk menampilkan penghubung sesuai dengan icon pengh
 
 a. penulisan tanpa sparator
 
-~input~
-
+input
+--
 ![nosep=.PNG](foto/nosep=.PNG)
 
-~output~
-
+output
+--
 ![hslnosep=.PNG](foto/hslnosep=.PNG)
 
 b. Penulisan menggunakan sparator
 
-~input~
-
+input
+--
 ![sep=.PNG](foto/sep=.PNG)
 
-~output~
-
+output
+--
 ![hslsep=.PNG](foto/hslsep=.PNG)
 
 
