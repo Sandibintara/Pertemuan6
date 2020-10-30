@@ -20,19 +20,46 @@ Kelas		: TI 20 B1
 
 # Lab 1
 
-### Penggunaan end=''
+### Penggunaan {end=''}
 ---
 > end=''
 
-Penggunaan end='' untuk membuat huruf sejajar vertikal [*click here](https://core.ac.uk/download/pdf/45375438.pdf) lihat pada halaman 22 untuk keterangan lebih jelas
+Penggunaan (end='') untuk membuat huruf sejajar vertikal [*click here](https://core.ac.uk/download/pdf/45375438.pdf) lihat pada halaman 22 untuk keterangan lebih jelas
 
-* contoh seperti ini ;
+* Contoh Input ;
 
 ![end=.PNG](foto/end=.PNG)
 
-* dengan output seperti ini ;
+* Output ;
 
 ![hasilend=.PNG](foto/hasilend=.PNG)
 
+### Penggunaan Separator / Penghubung {sep=''}
+---
+> sep=''
+
+Penggunaan sparator adalah untuk menampilkan penghubung sesuai dengan icon penghubung yang di tentukan.
+
+* Contoh ;
+
+a. penulisan tanpa sparator
+
+~input~
+
+![nosep=.PNG](foto/nosep=.PNG)
+
+~output~
+
+![hslnosep=.PNG](foto/hslnosep=.PNG)
+
+b. Penulisan menggunakan sparator
+
+~input~
+
+![sep=.PNG](foto/sep=.PNG)
+
+~output~
+
+![hslsep=.PNG](foto/hslsep=.PNG)
 
 
