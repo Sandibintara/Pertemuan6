@@ -44,7 +44,6 @@ _Contoh ;_
 
 `1. penulisan tanpa sparator`
 
-
 * input :
 
 ![nosep=.PNG](foto/nosep=.PNG)
@@ -54,7 +53,6 @@ _Contoh ;_
 ![hslnosep=.PNG](foto/hslnosep=.PNG)
 
 `2. Penulisan menggunakan sparator`
---
 
 * input :
 
