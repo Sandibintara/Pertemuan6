@@ -44,6 +44,7 @@ Penggunaan sparator adalah untuk menampilkan penghubung sesuai dengan icon pengh
 
 1. penulisan tanpa sparator
 --
+
 input
 -
 ![nosep=.PNG](foto/nosep=.PNG)
@@ -54,6 +55,7 @@ output
 
 2. Penulisan menggunakan sparator
 --
+
 input
 -
 ![sep=.PNG](foto/sep=.PNG)
