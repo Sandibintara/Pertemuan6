@@ -1,0 +1,3 @@
+print("Assalamualaikum!")
+print("Nama")
+
