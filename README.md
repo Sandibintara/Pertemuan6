@@ -18,13 +18,4 @@ Kelas		: TI 20 B1
 ## Assalamualaikum
 ---
 
-# Lab 1
-![lab1.py](lab1.py)
 
-# lab 1.2
-
-![lab1.2.py](lab1.2.py)
-
-# lab 2
-
-![lab2.py](lab2.py)

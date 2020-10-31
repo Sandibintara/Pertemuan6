@@ -1,3 +1,3 @@
 print("Assalamualaikum!")
-print("Nama")
+print("Masukan Nama")
 
