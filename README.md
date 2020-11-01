@@ -14,7 +14,7 @@ Kelas		: TI 20 B1<br>
 ## Assalamualaikum
 ---
 List Tugas
-1. Pertemuan 5 [click here](#Pertemuan6/pertemuan5.)
+1. Pertemuan 5 <a herf="pertemuan6-pertemuan5.py"><a/>
 2. Tugas pertemuan 6 - Lab 1.1 [click here](#pertemuan6/lab1.1)
 3. Tugas pertemuan 6 - Lab 1.2
 4. Tugas pertemuan 6 - lab 2 
