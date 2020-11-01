@@ -1,14 +1,16 @@
 #input
 print("Assalamualaikum!")
-Nama=input("Masukan Nama Lengkap =")
-nama=input("Masukan Nama Panggilan Anda =")
-NIM=input("Masukan NIM anda =")
-tempatlahir=input("Masukan Tempat Lahir Anda =")
-ttl=input("Masukan Tanggal Lahir Anda =")
-umur=input("Berapa Umur Anda =")
-alamat=input("Masukan Alamat =")
-email=input("Masukan Email Anda =")
-telepon=input("Masukan No Telepon Anda =")
+print("insert your biodata")
+
+Nama=input("Please enter your name =")
+nama=input("Please enter nickname =")
+NIM=input("Please enter your NIM =")
+tempatlahir=input("Please enter your place of birth =")
+ttl=input("Please enter your date of birth  =")
+umur=input("Please enter your age =")
+alamat=input("Please enter your adress  =")
+email=input("Please enter your email =")
+telepon=input("Please enter your phone number =")
 
 #output
 
