@@ -14,7 +14,7 @@ Kelas		: TI 20 B1<br>
 ## Assalamualaikum
 ---
 
-1. Pertemuan 5 [click here](Pertemuan6/pertemuan5)
+1. Pertemuan 5 [click here](#Pertemuan6/pertemuan5)
 
 Membuat kalimat perkenalan menggunakan bahasa pyhton
 ```
