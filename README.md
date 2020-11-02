@@ -90,11 +90,12 @@ print(f"Let me introduce my self. My name is {Nama}, but you can call me {nama}.
 
 Tugas Pertemuan 6
 
-![tugaslab1.PNG](foto/tugaslab1.PNG)
+![tugaslab1.png](foto/tugaslab1.png)
 
 lab1
 ```buildoutcfg
-# lab 1 Penggunaan end
+
+#lab 1 Penggunaan end
 print('A', end='')
 print('B', end='')
 print('C', end='')
@@ -103,13 +104,13 @@ print('x')
 print('Y')
 print('Z')
 
-# Sparator / Penghubung({sep=})
+#Sparator / Penghubung({sep=})
 w, x, y, z = 10, 15, 20, 25
 
-# Penulisan tanpa sparator / penghubung
+#Penulisan tanpa sparator / penghubung
 print(w, x, y, z)
 
-# Penulisan pengunaan sparator
+#Penulisan pengunaan sparator
 print(w, x, y, z, sep=' ')
 print(w, x, y, z, sep=',')
 print(w, x, y, z, sep=';')
@@ -118,28 +119,42 @@ print(w, x, y, z, sep='----')
 ```
 * Penggunaan END Penggunaan end digunakan untuk menambahkan karakter yang dicetak di akhir baris. Secara default penggunaan end adalah untuk ganti baris.
 <br>
+
 >syntax end=''
+
+<br>
+
 ```buildoutcfg
 print('A', end='')
 print('B', end='')
 print('C', end='')
 ```
+
 >tanpa penggunaan syntax end
+
+<br>
+
 ```buildoutcfg
 print('x')
 print('Y')
 print('Z')
 ```
+
 >hasil kompile
+
 ![hasilend.PNG](foto/hasilend.PNG)
 
 * Penggunaan Separator Separator adalah pemisah yang berfungsi sebagai tanda pemisah antar objek yang dicetak. Defaultnya adalah tanda spasi.
 <br>
+
 >Deklarasi beberapa variable
+
+
 ````buildoutcfg
 # Sparator / Penghubung sep=
 w, x, y, z = 10, 15, 20, 25
 ````
+
 > Menampilan variable
 
 ````buildoutcfg
@@ -158,7 +173,9 @@ print(w, x, y, z, sep='----')
 ```
 > Hasil dari fungsi di atas
 
-<br>![hasilseplab1.PNG](foto/hasilseplab1.PNG)
+<br>
+
+![hasilseplab1.PNG](foto/hasilseplab1.PNG)
 
 # 3. Tugas Pertemuan 6 - Lab 1.2
 
