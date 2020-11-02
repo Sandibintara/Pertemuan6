@@ -174,7 +174,8 @@ String formatting atau pemformatan string memungkinkan kita menyuntikkan item ke
 Penggubnaan source code yang di berikan pada tugas pertemuan 6 :
 ![tugaslab1-2.png](foto/tugaslab1-2.png)
 
-```buildoutcfg # Penggunaan string
+```buildoutcfg
+# Penggunaan string
 # String format
 
 print(0, 10**0)
@@ -199,9 +200,7 @@ print('{0:>3} {1:>16}'.format(6, 10**6))
 print('{0:>3} {1:>16}'.format(7, 10**7))
 print('{0:>3} {1:>16}'.format(8, 10**8))
 print('{0:>3} {1:>16}'.format(9, 10**9))
-print('{0:>3} {1:>16}'.format(10, 10**10))
-
-```
+print('{0:>3} {1:>16}'.format(10, 10**10))```
 String Format 1
 Pada syntax / source code string format 1 akan menampilkan output berupa 2 outputan.
 Yang pertama (sebelah kiri) akan menampilkan angka Urut dari angka 0 hingga angka 10, sedangkan untuk sebelah kanan akan menampilkan Operasi Aritmatika Pangkat.
