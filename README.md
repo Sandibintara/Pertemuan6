@@ -11,18 +11,22 @@ Kelas		: TI 20 B1<br>
 
 ======================================
 
-## Assalamualaikum
+# "Assalamualaikum"
 ---
 List Tugas
-1. Pertemuan 5 <a herf="pertemuan6-pertemuan5.py"><a/>
-2. Tugas pertemuan 6 - Lab 1.1 [click here](#pertemuan6/lab1.1)
+1. Pertemuan 5 [click here](#1-pertemuan-5)
+2. Tugas pertemuan 6 - Lab 1.1
 3. Tugas pertemuan 6 - Lab 1.2
-4. Tugas pertemuan 6 - lab 2 
+4. Tugas pertemuan 6 - lab 2
+ 
+--
 
-# Penjelasan
-##1. Pertemuan 5
+# 1. Pertemuan 5
 
-Membuat kalimat perkenalan menggunakan bahasa pyhton
+Pada pertemuan ke 5 kami di berikan tugas untuk membuat dan menganalisa penggunaan bahasa pemrograman PYHTON
+
+![tugasp5.PNG](foto/tugasp5.png)
+Penulisan tugas sebagai berikut !
 ```
 #input
 print("Assalamualaikum!")
@@ -44,8 +48,27 @@ print("Assalamualaikum!")
 print(f"Let me introduce my self. My name is {Nama}, but you can call me {nama}. My NIM is {NIM}.I was born in {tempatlahir} and i am {umur} years old. I am very glad if you want to invite my house in {alamat}. So, dont forget to call me before with the number {telepon} and my email {email}.")
 print("thank you.")
 ```
-## 2. Lab 1.1
+* Menggunakan perintah Print
 
+```print("Assalamualaikum")```
+
+Berfungsi untuk menampilkan "Assalamaualaikum" atau project lainnya sesuai yang akan di inputkan oleh si pengguna.
+
+`hasil`
+[print1.PNG](foto/print1.PNG)
+`hasil ketika kompile prosess`
+[assalamualaikum.PNG](foto/assalamualaikum.PNG)
+
+* Menggunakan perintah Input
+
+```Nama=input("Please enter your name =")```
+index=input("keterangan yang akan di tampilkan di opsi input")
+
+Menandai indexs dengan isi yg berbeda contoh; a=gajah maka input a adalah gajah.
+ 
+* Fungsi huruf f pada perintah print(f"...") adalah fungsi print atau bisa memudahkan programmer dalam mencetak statement dalam satu baris dibandingkan dengan metode yang lama yaitu memisahkan string dan variable dengan simbol koma ( , ) atau plus ( + )
+
+* Sedangkan fungsi {} pada output tersebut adalah untuk menampilkan hasil dari variable
 
 
 
