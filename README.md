@@ -49,7 +49,7 @@ print("thank you.")
 ```
 * Menggunakan perintah Print
 
-`print("Assalamualaikum")`
+>print("Assalamualaikum")
 
 Berfungsi untuk menampilkan `"Assalamaualaikum"` atau project lainnya sesuai yang akan di inputkan oleh si pengguna.
 
@@ -59,19 +59,28 @@ Berfungsi untuk menampilkan `"Assalamaualaikum"` atau project lainnya sesuai yan
 
 `hasil ketika kompile prosess`<br>
 
-![assalamualaikum.PNG](foto/assalamualaikum.PNG)<br>
+![assalamualaikum.PNG](foto/assalamualaikum.PNG)<br><br>
 
 * Menggunakan perintah Input
-
-```Nama=input("Please enter your name =")```
-index=input("keterangan yang akan di tampilkan di opsi input")
+```
+Nama=input("Please enter your name =")
+```
+<br>index=input("keterangan yang akan di tampilkan di opsi input")
 
 Menandai indexs dengan isi yg berbeda contoh; a=gajah maka input a adalah gajah.
+ <br><br>
  
-* Fungsi huruf f pada perintah print(f"...") adalah fungsi print atau bisa memudahkan programmer dalam mencetak statement dalam satu baris dibandingkan dengan metode yang lama yaitu memisahkan string dan variable dengan simbol koma ( , ) atau plus ( + )
+* Fungsi huruf f pada perintah print(f"...") adalah fungsi print atau bisa memudahkan programmer dalam mencetak statement dalam satu baris dibandingkan dengan metode yang lama yaitu memisahkan string dan variable dengan simbol koma ( , ) atau plus ( + )<br>
+* Sedangkan fungsi {} pada output tersebut adalah untuk menampilkan hasil dari variable.<br>
 
-* Sedangkan fungsi {} pada output tersebut adalah untuk menampilkan hasil dari variable
+_contoh;_
 
+```
+print("Assalamualaikum")
+print(f"Let me introduce my self. My name is {Nama}, but you can call me {nama}. My NIM is {NIM}.I was born in {tempatlahir} and i am {umur} years old. I am very glad if you want to invite my house in {alamat}. So, dont forget to call me before with the number {telepon} and my email {email}.")
+```
+<br>`hasil`
+![pertemuan5out.PNG](foto/pertemuan5out.PNG)<br>
 
 
 
