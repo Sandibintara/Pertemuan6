@@ -4,7 +4,7 @@ Mengerjakan  Latihan  Pada Pertemuan 6
 ======================================
 
 Mata Kuliah	: Bahasa Pemrograman<br>
-Dosen		: Agung Nugroho, S.Kom, M.Kom<br>
+Dosen		: Agung Nugroho, S.Kom, M.Kom<br><br>
 Nama Mahasiswa	: Sandi Bintara<br>
 NIM		: 312010039<br>
 Kelas		: TI 20 B1<br>
@@ -14,12 +14,11 @@ Kelas		: TI 20 B1<br>
 # "Assalamualaikum"
 ---
 List Tugas
-1. Pertemuan 5 [click here](#1-pertemuan-5)
-2. Tugas pertemuan 6 - Lab 1.1
-3. Tugas pertemuan 6 - Lab 1.2
-4. Tugas pertemuan 6 - lab 2
- 
---
+1. Tugas Pertemuan 5 [click here](#1-pertemuan-5)
+2. Tugas Pertemuan 6 - Lab 1.1
+3. Tugas Pertemuan 6 - Lab 1.2
+4. Tugas Pertemuan 6 - lab 2
+ --
 
 # 1. Pertemuan 5
 
@@ -50,14 +49,17 @@ print("thank you.")
 ```
 * Menggunakan perintah Print
 
-```print("Assalamualaikum")```
+`print("Assalamualaikum")`
 
-Berfungsi untuk menampilkan "Assalamaualaikum" atau project lainnya sesuai yang akan di inputkan oleh si pengguna.
+Berfungsi untuk menampilkan `"Assalamaualaikum"` atau project lainnya sesuai yang akan di inputkan oleh si pengguna.
 
-`hasil`
-[print1.PNG](foto/print1.PNG)
-`hasil ketika kompile prosess`
-[assalamualaikum.PNG](foto/assalamualaikum.PNG)
+`hasil`<br>
+
+![print1.PNG](foto/print1.PNG)<br>
+
+`hasil ketika kompile prosess`<br>
+
+![assalamualaikum.PNG](foto/assalamualaikum.PNG)<br>
 
 * Menggunakan perintah Input
 
