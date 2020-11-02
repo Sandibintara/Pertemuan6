@@ -28,8 +28,7 @@ Pada pertemuan ke 5 kami di berikan tugas untuk membuat dan menganalisa pengguna
 Penulisan tugas sebagai berikut !
 
 
-````buildoutcfg
-#input
+````buildoutcfg #input
 print("Assalamualaikum!")
 print("insert your biodata")
 
@@ -93,9 +92,7 @@ Tugas Pertemuan 6
 ![tugaslab1.png](foto/tugaslab1.png)
 
 lab1
-```buildoutcfg
-
-#lab 1 Penggunaan end
+```buildoutcfg #lab 1 Penggunaan end
 print('A', end='')
 print('B', end='')
 print('C', end='')
@@ -124,8 +121,7 @@ print(w, x, y, z, sep='----')
 
 <br>
 
-```buildoutcfg
-print('A', end='')
+```buildoutcfg print('A', end='')
 print('B', end='')
 print('C', end='')
 ```
@@ -134,8 +130,7 @@ print('C', end='')
 
 <br>
 
-```buildoutcfg
-print('x')
+```buildoutcfg print('x')
 print('Y')
 print('Z')
 ```
@@ -150,21 +145,18 @@ print('Z')
 >Deklarasi beberapa variable
 
 
-````buildoutcfg
-# Sparator / Penghubung sep=
+````buildoutcfg # Sparator / Penghubung sep=
 w, x, y, z = 10, 15, 20, 25
 ````
 
 > Menampilan variable
 
-````buildoutcfg
-# Menampilkan tiap hasil variable
+````buildoutcfg # Menampilkan tiap hasil variable
 print(w, x, y, z)
 ````
 > Menampilkan hasil dari tiap tiap variable menggunakan beberapa jenis icon pemisah 
 
-```buildoutcfg
-# Penulisan pengunaan sparator
+```buildoutcfg # Penulisan pengunaan sparator
 print(w, x, y, z, sep=' ')
 print(w, x, y, z, sep=',')
 print(w, x, y, z, sep=';')
@@ -183,10 +175,9 @@ print(w, x, y, z, sep='----')
 String formatting atau pemformatan string memungkinkan kita menyuntikkan item kedalam string daripada kita mencoba menggabungkan string menggunakan koma atau string concatenation.
 
 Penggubnaan source code yang di berikan pada tugas pertemuan 6 :
-![tugaslab1-2.PNG](foto/tugaslab1-2.PNG)
+![tugaslab1-2.png](foto/tugaslab1-2.png)
 
-```buildoutcfg
-# Penggunaan string
+```buildoutcfg # Penggunaan string
 # String format
 
 print(0, 10**0)
