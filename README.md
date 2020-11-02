@@ -130,7 +130,8 @@ print('x')
 print('Y')
 print('Z')
 ```
-
+>hasil kompile
+![hasilend.PNG](foto/hasilend.PNG)
 
 
 
