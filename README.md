@@ -90,7 +90,7 @@ print(f"Let me introduce my self. My name is {Nama}, but you can call me {nama}.
 
 Tugas Pertemuan 6
 
-![tugaslab1.png](foto/tugaslab1.png)
+![tugaslab1.PNG](foto/tugaslab1.PNG)
 
 lab1
 ```buildoutcfg
@@ -133,9 +133,74 @@ print('Z')
 >hasil kompile
 ![hasilend.PNG](foto/hasilend.PNG)
 
+* Penggunaan Separator Separator adalah pemisah yang berfungsi sebagai tanda pemisah antar objek yang dicetak. Defaultnya adalah tanda spasi.
+<br>
+>Deklarasi beberapa variable
+````buildoutcfg
+# Sparator / Penghubung sep=
+w, x, y, z = 10, 15, 20, 25
+````
+> Menampilan variable
 
+````buildoutcfg
+# Menampilkan tiap hasil variable
+print(w, x, y, z)
+````
+> Menampilkan hasil dari tiap tiap variable menggunakan beberapa jenis icon pemisah 
 
+```buildoutcfg
+# Penulisan pengunaan sparator
+print(w, x, y, z, sep=' ')
+print(w, x, y, z, sep=',')
+print(w, x, y, z, sep=';')
+print(w, x, y, z, sep=':')
+print(w, x, y, z, sep='----')
+```
+> Hasil dari fungsi di atas
 
+<br>![hasilseplab1.PNG](foto/hasilseplab1.PNG)
 
+# 3. Tugas Pertemuan 6 - Lab 1.2
+
+* String Format
+String formatting atau pemformatan string memungkinkan kita menyuntikkan item kedalam string daripada kita mencoba menggabungkan string menggunakan koma atau string concatenation.
+
+Penggubnaan source code yang di berikan pada tugas pertemuan 6 :
+![tugaslab1-2.PNG](foto/tugaslab1-2.PNG)
+
+```buildoutcfg
+# Penggunaan string
+# String format
+
+print(0, 10**0)
+print(1, 10**1)
+print(2, 10**2)
+print(3, 10**3)
+print(4, 10**4)
+print(5, 10**5)
+print(6, 10**6)
+print(7, 10**7)
+print(8, 10**8)
+print(9, 10**9)
+print(10, 10**10)
+
+print('{0:>3} {1:>16}'.format(0, 10**0))
+print('{0:>3} {1:>16}'.format(1, 10**1))
+print('{0:>3} {1:>16}'.format(2, 10**2))
+print('{0:>3} {1:>16}'.format(3, 10**3))
+print('{0:>3} {1:>16}'.format(4, 10**4))
+print('{0:>3} {1:>16}'.format(5, 10**5))
+print('{0:>3} {1:>16}'.format(6, 10**6))
+print('{0:>3} {1:>16}'.format(7, 10**7))
+print('{0:>3} {1:>16}'.format(8, 10**8))
+print('{0:>3} {1:>16}'.format(9, 10**9))
+print('{0:>3} {1:>16}'.format(10, 10**10))
+
+```
+String Format 1
+Pada syntax / source code string format 1 akan menampilkan output berupa 2 outputan.
+Yang pertama (sebelah kiri) akan menampilkan angka Urut dari angka 0 hingga angka 10, sedangkan untuk sebelah kanan akan menampilkan Operasi Aritmatika Pangkat.
+Dengan ketentuan sebagai berikut, operasi pangkat dengan angka kiri sebagai pokok (Rumus : ** [bintang dua] )
+Hasil dari syntax tersebut adalah 10 pangkat 0, hingga 10 pangkat 10. dengan output sebagai berikut :"
 
 

@@ -7,10 +7,11 @@ print('x')
 print('Y')
 print('Z')
 
-# Sparator / Penghubung({sep=})
+# Sparator / Penghubung sep=
+# Deklarasi variabel beserta nilainya
 w, x, y, z = 10, 15, 20, 25
 
-# Penulisan tanpa sparator / penghubung
+# Menampilkan tiap hasil variable
 print(w, x, y, z)
 
 # Penulisan pengunaan sparator
