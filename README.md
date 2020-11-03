@@ -53,19 +53,20 @@ print("thank you.")
 >print("Assalamualaikum")
 
  Berfungsi untuk menampilkan _"Assalamaualaikum"_ atau project lainnya sesuai yang akan di inputkan oleh si pengguna.
-<br>
+<br><br>
 _Contoh penggunaan print_
 <br>
 ![print1.PNG](foto/print1.PNG)
-<br>
+<br><br>
 _hasil_
 <br>
-![assalamualaikum.PNG](foto/assalamualaikum.PNG)<br><br>
+![assalamualaikum.PNG](foto/assalamualaikum.PNG)
+<br><br>
 * Menggunakan perintah Input
 ```buildoutcfg
 Nama=input("Please enter your name =")
 ```
-  Menandai indexs dengan isi yg berbeda contoh; a=gajah maka input a adalah gajah.
+Menandai indexs dengan isi yg berbeda contoh; a=gajah maka input a adalah gajah.
  <br>
  <br>
 * Fungsi huruf f pada perintah print(f"...") adalah fungsi print atau bisa memudahkan programmer dalam mencetak statement dalam satu baris dibandingkan dengan metode yang lama yaitu memisahkan string dan variable dengan simbol koma ( , ) atau plus ( + )<br>
@@ -73,16 +74,20 @@ Nama=input("Please enter your name =")
 <br>
 _contoh;_
 <br>
-```buildoutcfg print("Assalamualaikum")
+```buildoutcfg
+print("Assalamualaikum")
 print(f"Let me introduce my self. My name is {Nama}, but you can call me {nama}. My NIM is {NIM}.I was born in {tempatlahir} and i am {umur} years old. I am very glad if you want to invite my house in {alamat}. So, dont forget to call me before with the number {telepon} and my email {email}.")
 ```
+<br>
 <br>
 
 _hasil_
 ![pertemuan5out.PNG](foto/pertemuan5out.PNG)<br>
+<br>
+<br>
 
 # 2. Tugas Pertemuan 6 - Lab 1.1
-
+<br><br>
 Tugas Pertemuan 6
 <br>
 ![tugaslab1.png](foto/tugaslab1.png)
@@ -111,19 +116,14 @@ print(w, x, y, z, sep=';')
 print(w, x, y, z, sep=':')
 print(w, x, y, z, sep='----')
 ```
+
 * Penggunaan END Penggunaan end digunakan untuk menambahkan karakter yang dicetak di akhir baris. Secara default penggunaan end adalah untuk ganti baris.
-<br>
-
 >syntax end=''
-
-<br>
-
 ```buildoutcfg
 print('A', end='')
 print('B', end='')
 print('C', end='')
 ```
-<br>
 
 _tanpa penggunaan syntax end_
 ```buildoutcfg
