@@ -27,8 +27,8 @@ Pada pertemuan ke 5 kami di berikan tugas untuk membuat dan menganalisa pengguna
 ![tugasp5.PNG](foto/tugasp5.png)
 Penulisan tugas sebagai berikut !
 
-```commandline
-#input
+
+```buildoutcfg
 print("Assalamualaikum!")
 print("insert your biodata")
 
@@ -46,26 +46,7 @@ telepon=input("Please enter your phone number =")
 print("Assalamualaikum!")
 print(f"Let me introduce my self. My name is {Nama}, but you can call me {nama}. My NIM is {NIM}.I was born in {tempatlahir} and i am {umur} years old. I am very glad if you want to invite my house in {alamat}. So, dont forget to call me before with the number {telepon} and my email {email}.")
 print("thank you.")
-```
 
-```buildoutcfg #input
-print("Assalamualaikum!")
-print("insert your biodata")
-
-Nama=input("Please enter your name =")
-nama=input("Please enter nickname =")
-NIM=input("Please enter your NIM =")
-tempatlahir=input("Please enter your place of birth =")
-ttl=input("Please enter your date of birth  =")
-umur=input("Please enter your age =")
-alamat=input("Please enter your adress  =")
-email=input("Please enter your email =")
-telepon=input("Please enter your phone number =")
-
-#output
-print("Assalamualaikum!")
-print(f"Let me introduce my self. My name is {Nama}, but you can call me {nama}. My NIM is {NIM}.I was born in {tempatlahir} and i am {umur} years old. I am very glad if you want to invite my house in {alamat}. So, dont forget to call me before with the number {telepon} and my email {email}.")
-print("thank you.")
 ```
 
 * Menggunakan perintah Print
@@ -74,13 +55,16 @@ print("thank you.")
 
 Berfungsi untuk menampilkan `"Assalamaualaikum"` atau project lainnya sesuai yang akan di inputkan oleh si pengguna.
 
-`hasil`<br>
+`hasil`
+<br>
+![print1.PNG](foto/print1.PNG)
+<br>
 
-![print1.PNG](foto/print1.PNG)<br>
 
-`hasil ketika kompile prosess`<br>
-
+`hasil ketika kompile prosess`
+<br>
 ![assalamualaikum.PNG](foto/assalamualaikum.PNG)<br><br>
+
 
 * Menggunakan perintah Input
 
