@@ -13,7 +13,7 @@ Kelas		: TI 20 B1<br>
 
 # "Assalamualaikum"
 ---
-List Tugas
+# List Tugas
 1. Tugas Pertemuan 5            [click here](#1-tugas-pertemuan-5)
 2. Tugas Pertemuan 6 - Lab 1.1  [click here](#2-tugas-pertemuan-6---lab-11)
 3. Tugas Pertemuan 6 - Lab 1.2  [click here](#3-tugas-pertemuan-6---lab-12)
@@ -73,7 +73,9 @@ Menandai indexs dengan isi yg berbeda contoh; a=gajah maka input a adalah gajah.
 * Fungsi huruf f pada perintah print(f"...") adalah fungsi print atau bisa memudahkan programmer dalam mencetak statement dalam satu baris dibandingkan dengan metode yang lama yaitu memisahkan string dan variable dengan simbol koma ( , ) atau plus ( + )<br>
 * Sedangkan fungsi {} pada output tersebut adalah untuk menampilkan hasil dari variable.
 <br>
-_contoh;_
+
+_ contoh;_
+
 <br>
 
 ```buildoutcfg
@@ -87,6 +89,7 @@ print(f"Let me introduce my self. My name is {Nama}, but you can call me {nama}.
 _hasil_
 ![pertemuan5out.PNG](foto/pertemuan5out.PNG)<br>
 <br>
+untuk kembali ke list tugas [click here](#List-Tugas)
 <br>
 
 # 2. Tugas Pertemuan 6 - Lab 1.1
