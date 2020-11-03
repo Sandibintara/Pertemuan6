@@ -17,9 +17,10 @@ List Tugas
 1. Tugas Pertemuan 5 [click here](#1-tugas-pertemuan-5)
 2. Tugas Pertemuan 6 - Lab 1.1[click here](#2-tugas-pertemuan-6---lab-11)
 3. Tugas Pertemuan 6 - Lab 1.2[click here](#3-tugas-pertemuan-6---lab-12)
-4. Tugas Pertemuan 6 - lab 2[]()
+4. Tugas Pertemuan 6 - lab 2[click here](#4-tugas-pertemuan-6---lab-2)
  ---
 <br>
+
 # 1. Tugas Pertemuan 5
 <br>
 Pada pertemuan ke 5 kami di berikan tugas untuk membuat dan menganalisa penggunaan bahasa pemrograman PYHTON
@@ -139,7 +140,6 @@ _hasil_
 <br>
 
 >Deklarasi beberapa variable
-
 ```buildoutcfg # Sparator / Penghubung sep=
 w, x, y, z = 10, 15, 20, 25
 ```
@@ -169,7 +169,7 @@ print(w, x, y, z, sep='----')
 * String Format
   String formatting atau pemformatan string memungkinkan kita menyuntikkan item kedalam string daripada kita mencoba menggabungkan string menggunakan koma atau string concatenation.
 
-Penggubnaan source code yang di berikan pada tugas pertemuan 6 :
+    Penggunaan source code yang di berikan pada tugas pertemuan 6 :
 ![tugaslab1-2.png](foto/tugaslab1-2.png)
 ```buildoutcfg
 # Penggunaan string
@@ -223,3 +223,63 @@ print('{0:7}{1:9}'.format('Ratih','19 Tahun'))
 ```
 _hasil_
 ![contohstr2.PNG](foto/contohstr2.PNG)
+
+# 4. Tugas Pertemuan 6 - lab 2
+
+* Konversi Nilai Variable Untuk pembahasan terakhir, kali ini akan menyelesaikan tugas Lab 2 dari Dosen, yaitu Konversi Nilai Variable
+  Tugas yang diberikan oleh dosen adalah seperti gambar dibawah ini atau bisa di akses ke link Pertemuan 6 - Lab 2 :
+  
+![tugaslab2.PNG](foto/tugaslab2.png)
+
+```buildoutcfg
+a=(input("Input Nilai a:"))
+b=(input("Input Nilai b:"))
+print("variable a=", a)
+print("variable b=", b)
+print("hasil penggabungan {1}&{0}=%d".format(a,b) %(a+b))
+
+#konversi nilai variable
+a=int(a)
+b=int(b)
+print("hasil Pjumlahan {1}+{0}=%d".format(a,b) %(a+b))
+print("hasil Pembagian {1}/{0}=%d".format(a,b) %(a/b))
+```
+Saat source dijalankan ada sedikit kendala pada source
+![error.PNG](foto/error.PNG)
+>TypeError: %d format: a number is required, not str
+
+ternyata dan ternyata setelah di telusuri bahwa error terjadi pada penulisan variable yang salah yaitu variable a string, yang seharusnya dibaca oleh system adalah angka yaitu (integer) NB.di telusuri bersama teman
+
+Kita lihat pada baris ke 5 (di notifikasi terbaca bahwa error terletak pada baris ke 5), yaitu pada pemformatan .format() adalah interger, Sedangkan jika berupa string maka akan ada tanda petik dua ("..") pada pemformatan .format()
+Kita akan terfokus pada variable a dan b.
+Pada line 1 tertulis syntax : a=input("Masukkan Nilai A : ")
+Sedangkan pada line 2 tertulis sytax : b=input("Masukkan Nilai B : ")
+Untuk membuat inputan berupa interger/angka harus ditambahkan syntax int() pada format input(). Yang seharusnya ditulis adalah :
+
+```buildoutcfg
+a=int(input("Masukkan Nilai A : "))
+b=int(input("Masukkan Nilai B : "))
+```
+
+>penulisan setelah revisi
+```buildoutcfg
+a=int(input("Masukkan Nilai A : "))
+b=int(input("Masukkan Nilai B : "))
+print("Variable A : ",a)
+print("Variable B : ",b)
+print("Hasil penggabungan {1}&{0}=%d".format(a,b) %(a+b))
+
+#Konversi nilai variable
+a=int(a)
+b=int(b)
+print("Hasil penjumlahan {0}+{1}=%d".format(a,b) %(a+b))
+print("Hasil pembagian {0}/{1}=%d".format(a,b) %(a/b))
+```
+
+_hasilnya_
+![hasilrevisi.PNG](foto/hasilrevisi.PNG)
+
+Alhamdulillah semuanya sudah dijelaskan apabila ada kesalahan dalam penulisan dan sebagainya maka comment dan perbaikilah :)
+
+---
+end
