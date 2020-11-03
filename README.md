@@ -14,10 +14,10 @@ Kelas		: TI 20 B1<br>
 # "Assalamualaikum"
 ---
 List Tugas
-1. Tugas Pertemuan 5 [click here](#1-tugas-pertemuan-5)
-2. Tugas Pertemuan 6 - Lab 1.1[click here](#2-tugas-pertemuan-6---lab-11)
-3. Tugas Pertemuan 6 - Lab 1.2[click here](#3-tugas-pertemuan-6---lab-12)
-4. Tugas Pertemuan 6 - lab 2[click here](#4-tugas-pertemuan-6---lab-2)
+1. Tugas Pertemuan 5            [click here](#1-tugas-pertemuan-5)
+2. Tugas Pertemuan 6 - Lab 1.1  [click here](#2-tugas-pertemuan-6---lab-11)
+3. Tugas Pertemuan 6 - Lab 1.2  [click here](#3-tugas-pertemuan-6---lab-12)
+4. Tugas Pertemuan 6 - lab 2    [click here](#4-tugas-pertemuan-6---lab-2)
  ---
 <br>
 
@@ -75,10 +75,12 @@ Menandai indexs dengan isi yg berbeda contoh; a=gajah maka input a adalah gajah.
 <br>
 _contoh;_
 <br>
+
 ```buildoutcfg
 print("Assalamualaikum")
 print(f"Let me introduce my self. My name is {Nama}, but you can call me {nama}. My NIM is {NIM}.I was born in {tempatlahir} and i am {umur} years old. I am very glad if you want to invite my house in {alamat}. So, dont forget to call me before with the number {telepon} and my email {email}.")
 ```
+
 <br>
 <br>
 
