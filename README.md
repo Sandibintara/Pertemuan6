@@ -167,6 +167,7 @@ print(w, x, y, z, sep='----')
 > Hasil dari fungsi di atas
 ![hasilseplab1.PNG](foto/hasilseplab1.PNG)
 
+untuk kembali ke list tugas [click here](#List-Tugas)
 <br>
 
 # 3. Tugas Pertemuan 6 - Lab 1.2
@@ -229,6 +230,9 @@ print('{0:7}{1:9}'.format('Ratih','19 Tahun'))
 _hasil_
 ![contohstr2.PNG](foto/contohstr2.PNG)
 
+
+untuk kembali ke list tugas [click here](#List-Tugas)
+
 # 4. Tugas Pertemuan 6 - lab 2
 
 * Konversi Nilai Variable Untuk pembahasan terakhir, kali ini akan menyelesaikan tugas Lab 2 dari Dosen, yaitu Konversi Nilai Variable
@@ -286,5 +290,6 @@ _hasilnya_
 
 Alhamdulillah semuanya sudah dijelaskan apabila ada kesalahan dalam penulisan dan sebagainya maka comment dan perbaikilah :)
 
+untuk kembali ke list tugas [click here](#List-Tugas)
 ---
 end
