@@ -75,7 +75,7 @@ Menandai indexs dengan isi yg berbeda contoh; a=gajah maka input a adalah gajah.
 * Sedangkan fungsi {} pada output tersebut adalah untuk menampilkan hasil dari variable.
 <br>
 
-_ contoh;_
+_contoh;_
 
 <br>
 
@@ -301,11 +301,11 @@ print("Hasil penjumlahan {0}+{1}=%d".format(a,b) %(a+b))
 print("Hasil pembagian {0}/{1}=%d".format(a,b) %(a/b))
 ```
 
-_hasilnya_
+_hasilnya _
 ![hasilrevisi.PNG](foto/hasilrevisi.PNG)
 
 Alhamdulillah semuanya sudah dijelaskan apabila ada kesalahan dalam penulisan dan sebagainya maka comment dan perbaikilah :)
 
 untuk kembali ke list tugas [click here](#List-Tugas)
 ---
-end
+# Wassalamualaikum wr wb
