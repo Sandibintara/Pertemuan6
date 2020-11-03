@@ -30,3 +30,7 @@ print('{0:>3} {1:>16}'.format(10, 10**10))
 print('{0:7}{1:9}'.format('Nama','Umur'))
 print('{0:7}{1:9}'.format('Agus','20 Tahun'))
 print('{0:7}{1:9}'.format('Ratih','19 Tahun'))
+
+# Contoh bgian 2
+print('{:<30}{:^30}{:>30}'.format('Kiri','Tengah','Kanan'))
+print('{:<30}{:^30}{:>30}'.format(12,34,56))

@@ -179,7 +179,7 @@ untuk kembali ke list tugas [click here](#List-Tugas)
 ![tugaslab1-2.png](foto/tugaslab1-2.png)
 ```buildoutcfg
 # Penggunaan string
-# String format
+# String format 1
 
 print(0, 10**0)
 print(1, 10**1)
@@ -219,6 +219,8 @@ print('{0:>3} {1:>16}'.format(10, 10**10))
   2. String Format 2
   Pada syntax atau source code string format 2 akan menampilkan output berupa 2 output'an juga (seperti String Format 1, yaitu kanan dan kiri)
   Dengan ketentuan sebagai berikut :
+  
+![stringf2.PNG](foto/stringf2.PNG)
 
 >Alignment, padding, dan precesion dengan .format() dalam kurung kurawal kita dapat menetapkan panjang bidang, rata kanan/kiri, parameter pembulatan dan banyak lagi. Contoh lain seperti berikut :
 
@@ -229,6 +231,15 @@ print('{0:7}{1:9}'.format('Ratih','19 Tahun'))
 ```
 _hasil_
 ![contohstr2.PNG](foto/contohstr2.PNG)
+
+Secara Default, .format() menggunakan rata teks ke kiri, angka ke kanan. Kita dapat menggunakan opsi opsional <, ^, atau > untuk mengatur perataan kiri, tengah, atau kanan. Contoh lain dalam penggunaan .format() sebagai berikut :
+
+```buildoutcfg
+print('{:<30}{:^30}{:>30}'.format('Kiri','Tengah','Kanan'))
+print('{:<30}{:^30}{:>30}'.format(12,34,56))
+```
+_ hasil _
+![stringbag2.PNG](foto/stringbag2.PNG)
 
 
 untuk kembali ke list tugas [click here](#List-Tugas)
