@@ -29,7 +29,7 @@ Pada pertemuan ke 5 kami di berikan tugas untuk membuat dan menganalisa pengguna
 ![tugasp5.PNG](foto/tugasp5.png)
 Penulisan tugas sebagai berikut !
 <br>
-```buildoutcfg
+```python
 print("Assalamualaikum!")
 print("insert your biodata")
 
@@ -47,6 +47,7 @@ telepon=input("Please enter your phone number =")
 print("Assalamualaikum!")
 print(f"Let me introduce my self. My name is {Nama}, but you can call me {nama}. My NIM is {NIM}.I was born in {tempatlahir} and i am {umur} years old. I am very glad if you want to invite my house in {alamat}. So, dont forget to call me before with the number {telepon} and my email {email}.")
 print("thank you.")
+
 ```
 
 * Menggunakan perintah Print
@@ -64,7 +65,7 @@ _hasil_
 ![assalamualaikum.PNG](foto/assalamualaikum.PNG)
 <br><br>
 * Menggunakan perintah Input
-```buildoutcfg
+```python
 Nama=input("Please enter your name =")
 ```
 Menandai indexs dengan isi yg berbeda contoh; a=gajah maka input a adalah gajah.
@@ -78,7 +79,7 @@ _ contoh;_
 
 <br>
 
-```buildoutcfg
+```python
 print("Assalamualaikum")
 print(f"Let me introduce my self. My name is {Nama}, but you can call me {nama}. My NIM is {NIM}.I was born in {tempatlahir} and i am {umur} years old. I am very glad if you want to invite my house in {alamat}. So, dont forget to call me before with the number {telepon} and my email {email}.")
 ```
@@ -99,7 +100,7 @@ Tugas Pertemuan 6
 ![tugaslab1.png](foto/tugaslab1.png)
 <br>
 lab1
-```buildoutcfg
+```python
 #lab 1 Penggunaan end
 print('A', end='')
 print('B', end='')
@@ -125,14 +126,14 @@ print(w, x, y, z, sep='----')
 
 * Penggunaan END Penggunaan end digunakan untuk menambahkan karakter yang dicetak di akhir baris. Secara default penggunaan end adalah untuk ganti baris.
 >syntax end=''
-```buildoutcfg
+```python
 print('A', end='')
 print('B', end='')
 print('C', end='')
 ```
 
 _tanpa penggunaan syntax end_
-```buildoutcfg
+```python
 print('x')
 print('Y')
 print('Z')
@@ -145,17 +146,19 @@ _hasil_
 <br>
 
 >Deklarasi beberapa variable
-```buildoutcfg # Sparator / Penghubung sep=
+```python
+# Sparator / Penghubung sep=
 w, x, y, z = 10, 15, 20, 25
 ```
 
 > Menampilan variable
-```buildoutcfg # Menampilkan tiap hasil variable
+```python
+# Menampilkan tiap hasil variable
 print(w, x, y, z)
 ```
 
 > Menampilkan hasil dari tiap tiap variable menggunakan beberapa jenis icon pemisah.
-```buildoutcfg
+```python
 # Penulisan pengunaan sparator
 print(w, x, y, z, sep=' ')
 print(w, x, y, z, sep=',')
@@ -177,7 +180,7 @@ untuk kembali ke list tugas [click here](#List-Tugas)
 
     Penggunaan source code yang di berikan pada tugas pertemuan 6 :
 ![tugaslab1-2.png](foto/tugaslab1-2.png)
-```buildoutcfg
+```python
 # Penggunaan string
 
 # String format 1
@@ -226,7 +229,7 @@ print('{0:>3} {1:>16}'.format(10, 10**10))
 
 >Alignment, padding, dan precesion dengan .format() dalam kurung kurawal kita dapat menetapkan panjang bidang, rata kanan/kiri, parameter pembulatan dan banyak lagi. Contoh lain seperti berikut :
 
-```buildoutcfg
+```python
 print('{0:7}{1:9}'.format('Nama','Umur'))
 print('{o:7}{1:9}'.format('Agus','20 Tahun'))
 print('{0:7}{1:9}'.format('Ratih','19 Tahun'))
@@ -236,7 +239,7 @@ _hasil_
 
 Secara Default, .format() menggunakan rata teks ke kiri, angka ke kanan. Kita dapat menggunakan opsi opsional <, ^, atau > untuk mengatur perataan kiri, tengah, atau kanan. Contoh lain dalam penggunaan .format() sebagai berikut :
 
-```buildoutcfg
+```python
 print('{:<30}{:^30}{:>30}'.format('Kiri','Tengah','Kanan'))
 print('{:<30}{:^30}{:>30}'.format(12,34,56))
 ```
@@ -253,7 +256,7 @@ untuk kembali ke list tugas [click here](#List-Tugas)
   
 ![tugaslab2.PNG](foto/tugaslab2.png)
 
-```buildoutcfg
+```python
 a=(input("Input Nilai a:"))
 b=(input("Input Nilai b:"))
 print("variable a=", a)
@@ -278,13 +281,13 @@ Pada line 1 tertulis syntax : a=input("Masukkan Nilai A : ")
 Sedangkan pada line 2 tertulis sytax : b=input("Masukkan Nilai B : ")
 Untuk membuat inputan berupa interger/angka harus ditambahkan syntax int() pada format input(). Yang seharusnya ditulis adalah :
 
-```buildoutcfg
+```python
 a=int(input("Masukkan Nilai A : "))
 b=int(input("Masukkan Nilai B : "))
 ```
 
 >penulisan setelah revisi
-```buildoutcfg
+```python
 a=int(input("Masukkan Nilai A : "))
 b=int(input("Masukkan Nilai B : "))
 print("Variable A : ",a)
@@ -306,17 +309,3 @@ Alhamdulillah semuanya sudah dijelaskan apabila ada kesalahan dalam penulisan da
 untuk kembali ke list tugas [click here](#List-Tugas)
 ---
 end
-
-```editorconfig
-a=int(input("Masukkan Nilai A : "))
-b=int(input("Masukkan Nilai B : "))
-print("Variable A : ",a)
-print("Variable B : ",b)
-print("Hasil penggabungan {1}&{0}=%d".format(a,b) %(a+b))
-
-#Konversi nilai variable
-a=int(a)
-b=int(b)
-print("Hasil penjumlahan {0}+{1}=%d".format(a,b) %(a+b))
-print("Hasil pembagian {0}/{1}=%d".format(a,b) %(a/b))
-```
