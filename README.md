@@ -179,8 +179,8 @@ untuk kembali ke list tugas [click here](#List-Tugas)
 ![tugaslab1-2.png](foto/tugaslab1-2.png)
 ```buildoutcfg
 # Penggunaan string
-# String format 1
 
+# String format 1
 print(0, 10**0)
 print(1, 10**1)
 print(2, 10**2)
@@ -195,6 +195,8 @@ print(10, 10**10)
 
 print()
 print()
+
+# String Format 2
 print('{0:>3} {1:>16}'.format(0, 10**0))
 print('{0:>3} {1:>16}'.format(1, 10**1))
 print('{0:>3} {1:>16}'.format(2, 10**2))
@@ -304,3 +306,17 @@ Alhamdulillah semuanya sudah dijelaskan apabila ada kesalahan dalam penulisan da
 untuk kembali ke list tugas [click here](#List-Tugas)
 ---
 end
+
+```editorconfig
+a=int(input("Masukkan Nilai A : "))
+b=int(input("Masukkan Nilai B : "))
+print("Variable A : ",a)
+print("Variable B : ",b)
+print("Hasil penggabungan {1}&{0}=%d".format(a,b) %(a+b))
+
+#Konversi nilai variable
+a=int(a)
+b=int(b)
+print("Hasil penjumlahan {0}+{1}=%d".format(a,b) %(a+b))
+print("Hasil pembagian {0}/{1}=%d".format(a,b) %(a/b))
+```
