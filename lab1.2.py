@@ -1,6 +1,6 @@
 # Penggunaan string
-# String format
 
+# String format 1
 print(0, 10**0)
 print(1, 10**1)
 print(2, 10**2)
@@ -13,6 +13,7 @@ print(8, 10**8)
 print(9, 10**9)
 print(10, 10**10)
 
+# String Format 2
 print('{0:>3} {1:>16}'.format(0, 10**0))
 print('{0:>3} {1:>16}'.format(1, 10**1))
 print('{0:>3} {1:>16}'.format(2, 10**2))
@@ -24,3 +25,8 @@ print('{0:>3} {1:>16}'.format(7, 10**7))
 print('{0:>3} {1:>16}'.format(8, 10**8))
 print('{0:>3} {1:>16}'.format(9, 10**9))
 print('{0:>3} {1:>16}'.format(10, 10**10))
+
+# contoh
+print('{0:7}{1:9}'.format('Nama','Umur'))
+print('{0:7}{1:9}'.format('Agus','20 Tahun'))
+print('{0:7}{1:9}'.format('Ratih','19 Tahun'))
